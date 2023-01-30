@@ -87,7 +87,7 @@ function HowToPlay() {
                             </div>
                         </div>
                         <div className="justify-center flex py-2 mt-2">
-                            <button className="px-2 py-2 uppercase tracking-widest border-none flex items-center font-semibold text-sm bg-custom-positive"
+                            <button className="px-2 py-2 uppercase tracking-widest border-none flex items-center font-semibold text-sm bg-button-conferma"
                                 type="button" aria-label="başla" title="Inzia"
                                 onClick={() => onStart()}>
                                 Inizia
