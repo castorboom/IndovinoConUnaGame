@@ -89,7 +89,7 @@ const buildShareText = (guessList: any[]) => {
   let icons = getBoxIcons(guessList);
   let todayStr = getDayFormattedText();
 
-  return `${icons} \n #HeardleItalia ${todayStr} \n \n ${HEARDLE_IT_WEB_URL}`;
+  return `${icons} \n #LIndovinoConUnaGame \n \n Gioca su: ${HEARDLE_IT_WEB_URL}`;
 }
 
 function GameResult({ songConfig }: { songConfig: any }) {
@@ -126,14 +126,14 @@ function GameResult({ songConfig }: { songConfig: any }) {
     
     <div id="result" className="w-full flex flex-col flex-grow relative">
       <div className="max-w-screen-sm w-full mx-auto h-full flex flex-col justify-between overflow-auto">
-        <div className="p-3 pb-0 flex-col items-evenly">
+        <div className="p-2 pb-0 flex-col items-evenly">
           {
             songConfig.soundSpotifyLink &&
             <div className="mt-2">
-              <iframe id="spotify" src={songConfig.soundSpotifyLink + "?utm_source=heardle.it"}
+              <iframe id="spotify" src={songConfig.soundSpotifyLink + "?utm_source=indovinoconuna.it"}
                 title={"Ascolta su Spotify " + songConfig.trackName}
                 className="song-link"
-                width="100%" height="80" frameBorder="0" allowFullScreen={false}
+                width="100%" height="600" frameBorder="0" allowFullScreen={false}
                 allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
             </div>
           }
@@ -188,12 +188,7 @@ function GameResult({ songConfig }: { songConfig: any }) {
                 </svg>
             </button> 
           </div> */}
-          <script type="text/javascript" src="https://udbaa.com/bnr.php?section=heardle&pub=162489&format=468x60&ga=g"></script>
-          <noscript>
-            <a href="https://yllix.com/publishers/162489" target="_blank">
-              <img src="//ylx-aff.advertica-cdn.com/pub/468x60.png" style={{border:"none",margin:"0",padding:"0", verticalAlign:"baseline"}} alt="ylliX - Online Advertising Network" />
-            </a>
-          </noscript>
+
           
         </div>
       </div>

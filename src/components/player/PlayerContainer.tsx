@@ -126,7 +126,7 @@ function PlayerContainer({ songConfig, accessToken }: {songConfig: SongConfig, a
                                 }
                                 {
                                     openedStep < songConfig.breaks.length &&
-                                    <button className="px-2 py-2 uppercase tracking-widest border-none flex items-center font-semibold text-sm rounded bg-custom-positive"
+                                    <button className="px-2 py-2 uppercase tracking-widest border-none flex items-center font-semibold text-sm rounded bg-button-conferma"
                                         type="submit"
                                         onClick={onSendClicked}>
                                         Conferma

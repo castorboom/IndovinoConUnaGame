@@ -43,7 +43,7 @@ export const artists = [
     "adriano celentano",
     "domenico modugno",
     "nada",
-    "al bano and romina power",
+    "al bano e romina power",
     "riccardo cocciante",
     "loretta goggi",
     "ermal meta",
@@ -70,7 +70,5 @@ export const artists = [
     "morgan",
     "the randy jackson band",
     "tosca"
-
-
 
 ]
