@@ -4,8 +4,8 @@
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-* [Versione Italiana](##Versione-Italiana)
-* [English Version](##English-Version)
+* [Versione Italiana](#versione-italiana)
+* [English Version](#english-version)
 
 ## Versione Italiana
 L'Indovino con Una! è un gioco musicale che ti permette di mettere alla prova la tua conoscenza degli artisti italiani. Il gioco consiste nell'ascoltare un brano musicale estratto da Spotify e di indovinarne il titolo e l'artista il più rapidamente possibile.
